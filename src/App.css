@@ -1,38 +1,167 @@
+/* MAIN APP AND RESET CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bold {
+  font-weight: 700;
+}
+.navListHeavy {
+  font-weight: 500;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
+/* HEADER CSS */
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #20232b;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  font-size: small;
+}
+.App-logo {
+  height: 45px;
+  margin: 15px;
+}
+.App-logo:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+.locationIcon {
+  font-size: large;
+}
+.deliverToHeader {
+  display: flex;
+  align-items: flex-end;
+  margin-right: 10px;
+  padding: 10px;
+}
+.deliverToHeader:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+.deliverText {
+  text-align: left;
+  margin-left: 5px;
+}
+.searchBarArea {
+  display: flex;
+  align-items: center;
+}
+.selectDepartment {
+  width: 60px;
+  border-radius: 10px 0 0 10px;
+  height: 45px;
+  background-color: #dadddf;
+  border: none;
+  text-align: center;
+}
+.selectDepartment:hover {
+  background-color: #bfc1c2;
+  cursor: pointer;
+}
+/* MIDDLE HEADER CSS */
+.searchBar {
+  height: 45px;
+  width: 900px;
+  border: none;
+}
+::placeholder {
+  padding-left: 10px;
+}
+.searchIcon {
+  color: black;
+  font-size: x-large;
+  background-color: #fab861;
+  height: 21px;
+  padding: 12px;
+  border-radius: 0px 7px 7px 0px;
+  margin-right: 25px;
+}
+.searchIcon:hover {
+  background-color: #d39748;
+  cursor: pointer;
+}
+/* RIGHT SIDE HEADER CSS */
+.selectLanguage {
+  margin-right: 15px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: larger;
+  font-weight: 700;
+}
+.selectLanguage:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+.selectLanguage option {
+  color: #20232b;
+}
+.rightSideHeader {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+}
+.rightSideInformation {
+  display: flex;
+  align-items: center;
+}
+.rightSideInformation p {
+  margin: 0 20px;
+}
+.cartHeader {
+  display: flex;
+  align-items: flex-end;
+  padding: 2px;
+  padding: 10px 0px 10px 0px;
+}
+.cartHeader:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+.cartP {
+  margin-right: -15px;
+  font-size: xx-large;
+  margin-left: 5px;
+}
+.hoverEffect:hover {
+  border: 1px solid white;
+  padding: 10px 0px 10px 0px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+/* BEGIN NAVIGATION STYLING */
+.nav {
+  background-color: #232F3E;
+}
+.navList {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+.navList li {
+  color: white;
+  padding: 10px 5px 10px 5px;
+  font-size: 14px;
+}
+.navList li:hover {
+  border: 2px solid white;
+  cursor: pointer;
+}
+.allLogo {
+  margin-right: 3px;
+  margin-bottom: -2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+/* MAIN BODY STYLING */
+main {
+  background-color: rgb(227,230,230);
 }
