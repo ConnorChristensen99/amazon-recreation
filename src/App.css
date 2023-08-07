@@ -5,6 +5,7 @@
 }
 .App {
   text-align: center;
+  min-width: 1029px;
 }
 .bold {
   font-weight: 700;
@@ -26,7 +27,7 @@
   margin: 15px;
 }
 .App-logo:hover {
-  border: 1px solid white;
+  outline: 1px solid white;
   cursor: pointer;
 }
 .locationIcon {
@@ -39,7 +40,7 @@
   padding: 10px;
 }
 .deliverToHeader:hover {
-  border: 1px solid white;
+  outline: 1px solid white;
   cursor: pointer;
 }
 .deliverText {
@@ -65,7 +66,7 @@
 /* MIDDLE HEADER CSS */
 .searchBar {
   height: 45px;
-  width: 900px;
+  width: 1100px;
   border: none;
 }
 ::placeholder {
@@ -94,7 +95,7 @@
   font-weight: 700;
 }
 .selectLanguage:hover {
-  border: 1px solid white;
+  outline: 1px solid white;
   cursor: pointer;
 }
 .selectLanguage option {
@@ -119,7 +120,7 @@
   padding: 10px 0px 10px 0px;
 }
 .cartHeader:hover {
-  border: 1px solid white;
+  outline: 1px solid white;
   cursor: pointer;
 }
 .cartP {
@@ -128,7 +129,7 @@
   margin-left: 5px;
 }
 .hoverEffect:hover {
-  border: 1px solid white;
+  outline: 1px solid white;
   padding: 10px 0px 10px 0px;
   cursor: pointer;
 }
@@ -147,21 +148,158 @@
 }
 .navList li {
   color: white;
-  padding: 10px 5px 10px 5px;
+  padding: 10px 0 10px 0;
   font-size: 14px;
 }
 .navList li:hover {
-  border: 2px solid white;
+  outline: 2px solid white;
   cursor: pointer;
+}
+.navRight {
+  margin-left: 80px;
 }
 .allLogo {
   margin-right: 3px;
   margin-bottom: -2px;
 }
-
+@media (max-width: 1624px) {
+  .end {
+    display: none;
+  }
+}
+@media (max-width: 1420px) {
+  .end1 {
+    display: none;
+  }
+}
+@media (max-width: 1254px) {
+  .end2 {
+    display: none;
+  }
+}
+@media (max-width: 1104px) {
+  .end3 {
+    display: none;
+  }
+}
 
 
 /* MAIN BODY STYLING */
 main {
   background-color: rgb(227,230,230);
+}
+ul.thumbs.animated, ul.control-dots, p.carousel-status  {
+  display: none;
+}
+.carouselMain {
+  width: 80%;
+  position: relative;
+}
+.carouselContainer {
+  display: flex;
+  justify-content: center;
+}
+button.control-arrow.control-next:hover {
+  outline: 1px solid white;
+}
+.fade-img {
+  position: relative; 
+}
+.fade-img:after {
+  content:""; 
+  position: absolute; 
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgb(227,230,230) 100%);
+  height: 50%;  
+}
+.overCarouselImages {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 420px;
+  width: 80%;
+}
+.outer {
+  display: flex;
+  justify-content: center;
+}
+.overCarouselImages img {
+  width: 100%;
+  height: auto;
+}
+.overCarouselImages h2 {
+  margin-bottom: 25px;
+}
+.areaImage1, .areaImage2, .areaImage3, .areaImage4 {
+  background-color: white;
+  text-align: left;
+  margin: 10px;
+  padding: 25px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.imageContainer {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+.imageHolder {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+/* BEGIN FOOTER STYLING */
+.topFooter {
+  height: 40px;
+  background-color: #37475A;
+  padding-top: 15px;
+}
+.topFooter a {
+  color: white;
+  text-decoration: none;
+}
+.topFooter:hover {
+  background-color: #708196;
+}
+.mainFooter {
+  display: flex;
+  justify-content: center;
+  background-color: #232F3E;
+  color: white;
+}
+.mainFooter h3 {
+  padding-bottom: 10px;
+}
+.footer1, .footer2, .footer3, .footer4{
+  text-decoration: none;
+  padding: 10px;
+  margin: 0px 25px;
+}
+.footerList {
+  list-style-type: none;
+  text-align: left;
+}
+.footer-logo {
+  background-color: #232F3E;
+  padding: 25px;
+}
+.bottomFooter {
+  background-color: #131A22;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.botfooter1, .botfooter2, .botfooter3, .botfooter4{
+  text-decoration: none;
+  padding: 10px;
+  margin: 0px 25px;
+}
+.hr {
+  border: .2px solid rgb(128, 128, 128, .9);
 }
