@@ -125,7 +125,7 @@ function App() {
               <div className='imageHolder'>
               <div className='imageContainer'><img src= {pickup1}/><p>Maisto 1:18 Special Edition</p></div>
               <div className='imageContainer'><img src= {pickup2}/><p>Maisto 1:18 Special Edition</p></div>
-              <div className='imageContainer'><img src= {pickup3}/><p>2020 Chevrolet Sorvette</p></div>
+              <div className='imageContainer'><img src= {pickup3}/><p>2020 Chevrolet Corvette</p></div>
               <div className='imageContainer'><img src= {pickup4}/><p>Maisto 1:18 Special Edition</p></div>
               </div>
             </div>
@@ -164,86 +164,105 @@ function App() {
       <div className='footer1'>
         <h3>Get to Know Us</h3>
         <ul className='footerList'>
-          <li>Example</li>
-          <li>Example</li>
-          <li>Example</li>
-          <li>Example</li>
+          <a href="#"><li>Careers</li></a>
+          <a href="#"><li>Amazon Newsletter</li></a>
+          <a href="#"><li>About Amazon</li></a>
+          <a href="#"><li>Accessibility</li></a>
+          <a href="#"> <li>Sustainability</li></a>
+          <a href="#"><li>Press Center</li></a>
         </ul>
 
       </div>
       <div className='footer2'>
         <h3>Make Money with Us</h3>
         <ul className='footerList'>
-          <li>Example</li>
-          <li>Example</li>
-          <li>Example</li>
-          <li>Example</li>
+        <a href="#"><li>Sell products on Amazon</li></a>
+        <a href="#"> <li>Sell apps on Amazon</li></a>
+        <a href="#"><li>Supply to Amazon</li></a>
+        <a href="#"><li>Protect & Build Your Brand</li></a>
+        <a href="#"><li>Become an Affiliate</li></a>
+        <a href="#"><li>Become a Delivery Driver</li></a>
+        <a href="#"> <li>Start a Package Delivery Business</li></a>
+        <a href="#"><li>Self-Publish with Us</li></a>
         </ul>
 
       </div>
       <div className='footer3'>
         <h3>Amazon Payment Products</h3>
         <ul className='footerList'>
-          <li>Example</li>
-          <li>Example</li>
-          <li>Example</li>
-          <li>Example</li>
+        <a href="#"><li>Amazon Visa</li></a>
+        <a href="#"><li>Amazon Store Card</li></a>
+        <a href="#"> <li>Amazon Secured Card</li></a>
+        <a href="#"><li>Amazon Business Card</li></a>
+        <a href="#"><li>Shop with Points</li></a>
+        <a href="#"> <li>Credit Card Marketplace</li></a>
+        <a href="#"> <li>Reload Your Balance</li></a>
+        <a href="#"><li>Gift Cards</li></a>
         </ul>
 
       </div>
       <div className='footer4'>
         <h3>Let Us Help You</h3>
         <ul className='footerList'>
-          <li>Example</li>
-          <li>Example</li>
-          <li>Example</li>
-          <li>Example</li>
+          <li href="#">Amazon and COVID-19</li>
+          <li href="#">Your Account</li>
+          <li href="#">Your Orders</li>
+          <li href="#">Shipping Rates & Policies</li>
+          <li href="#">Amazon Prime</li>
+          <li href="#">Returns & Replacements</li>
+          <li href="#">Manage Your Content and Devices</li>
+          <li href="#">Your Recalls and Product Safety Alerts</li>
+          <li href="#">Help</li>
         </ul>
       </div>
     </div>
     <hr className='hr'/>
     <div className='mainFooter'>
     <img src={logo} className="footer-logo" alt="logo" />
+    <select id='selectLanguage' className='selectLanguage'>
+            <option selected>English</option>
+            <option>ES</option>
+            <option>RUS</option>
+            <option>FRN</option>
+            <option>ITAL</option>
+          </select>
     </div>
     <div className='bottomFooter'>
     <div className='botfooter1'>
-        <h3>Get to Know Us</h3>
-        <ul className='footerList'>
-          <li>Example</li>
-          <li>Example</li>
-          <li>Example</li>
-          <li>Example</li>
-        </ul>
-
+      <p><span class='bold'>Amazon Music</span><br/>Stream Millions of Songs</p>
       </div>
       <div className='botfooter2'>
-        <h3>Make Money with Us</h3>
-        <ul className='footerList'>
-          <li>Example</li>
-          <li>Example</li>
-          <li>Example</li>
-          <li>Example</li>
-        </ul>
-
+      <p><span class='bold'>Amazon Advertising</span><br/>Find, attract, and engage customers</p>
       </div>
       <div className='botfooter3'>
-        <h3>Amazon Payment Products</h3>
-        <ul className='footerList'>
-          <li>Example</li>
-          <li>Example</li>
-          <li>Example</li>
-          <li>Example</li>
-        </ul>
-
+      <p><span class='bold'>6pm</span><br/>Score deals on fashion brands</p>
       </div>
       <div className='botfooter4'>
-        <h3>Let Us Help You</h3>
-        <ul className='footerList'>
-          <li>Example</li>
-          <li>Example</li>
-          <li>Example</li>
-          <li>Example</li>
-        </ul>
+      <p><span class='bold'>AbeBooks</span><br/>Books, art & collectibles</p>
+      </div>
+      <div className='botfooter5'>
+      <p><span class='bold'>ACX</span><br/>Audiobook Publishing Made Easy</p>
+      </div>
+      <div className='botfooter6'>
+      <p><span class='bold'>Sell on Amazon</span><br/>Start a Selling Account</p>
+      </div>
+      <div className='botfooter7'>
+      <p><span class='bold'>Amazon Business</span><br/>Everything for Your Business</p>
+      </div>
+      <div className='botfooter8'>
+      <p><span class='bold'>Amazon Fresh</span><br/>Groceries & More Right To Your Door</p>
+      </div>
+      <div className='botfooter9'>
+      <p><span class='bold'>AmazonGlobal</span><br/>Ship Orders Internationally</p>
+      </div>
+      <div className='botfooter10'>
+      <p><span class='bold'>HomeServices</span><br/>Experienced Pros Happiness Guarantee</p>
+      </div>
+      <div className='botfooter11'>
+      <p><span class='bold'>Amazon Web Services</span><br/>Scalable Cloud Computing Services</p>
+      </div>
+      <div className='botfooter12'>
+      <p><span class='bold'>Audible</span><br/>Listen to Books & Original Audio Performances</p>
       </div>
     </div>
     </footer>
