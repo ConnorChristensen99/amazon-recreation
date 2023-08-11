@@ -18,6 +18,9 @@ import buyAgain2 from './assets/buy_again2.jpg';
 import buyAgain3 from './assets/buy_again3.jpg';
 import buyAgain4 from './assets/buy_again4.jpg';
 import topDeal from './assets/topDeal.jpg'
+import lion from './assets/lion.jpg'
+import frontPage from './assets/frontPage.png'
+import theBoys from './assets/theBoys.jpg'
 import './App.css';
 import { FaMapMarkerAlt, FaSearch, FaOpencart, FaTh } from 'react-icons/fa';
 // HANDLES IMAGE CAROUSEL ON HOMEPAGE
@@ -64,10 +67,10 @@ function App() {
             <option>ITAL</option>
           </select>
           <div className='rightSideInformation'>
-            <div className='hoverEffect'>
+            <div className='hoverEffect lengthen'>
           <p>Hello, Connor<br/> <span className='bold'>Account & Lists</span></p>
           </div>
-          <div className='hoverEffect'>
+          <div className='hoverEffect lengthen'>
           <p>Returns<br/><span className='bold'>& Orders</span></p>
           </div>
           <div className='cartHeader'>
@@ -132,10 +135,11 @@ function App() {
             <div className='areaImage2'>
             <h2 className='bold'>Keep shopping for</h2>
             <div className='imageHolder'>
-            <div className='imageContainer'><img src= {keepShopping1}/><p>Diuretic Supplements</p></div>
-            <div className='imageContainer'><img src= {keepShopping2}/><p>Fantasy romance eb...</p></div>
+            <div className='imageContainer'><img src= {lion}/><p>Dog Costumes</p></div>
+            <div className='imageContainer bigContainer'><img src= {keepShopping2}/><p>Kindle Store</p></div>
             <div className='imageContainer'><img src= {keepShopping3}/><p>Dog Shedding Tools</p></div>
             <div className='imageContainer'><img src= {keepShopping4}/><p>Dog training clickers</p></div>
+            <a href='#' className='viewmore'><p>View your browsing history</p></a>
             </div>
               </div>
               <div className='areaImage3'>
@@ -145,13 +149,42 @@ function App() {
               <div className='imageContainer'><img src= {buyAgain2}/></div>
               <div className='imageContainer'><img src= {buyAgain3}/></div>
               <div className='imageContainer'><img src= {buyAgain4}/></div>
+              <div className='areaImage3Information'>
+              <p>Shop your everyday essentials</p>
+              <a href='#' className='viewmore'><p className='seeMore'>See More</p></a>
               </div>
               </div>
-              <div className='areaImage4'>
-              <h2 className='bold'>Top deal</h2>
-              <div className='imageContainer'><img src= {topDeal}/></div>
+              </div>
+              <div>
+              <div className='areaImage4Float'>
+                <div>
+              <h3 className='bold'>Gift cards for the perfect send-off</h3>
+              <a href='#' className='viewmore'><p className='seeMore'>Shop off to college</p></a>
+              </div>
+              <div className='imageContainerFloat'><img src= {topDeal}/></div>
+              </div>
+              <div className='frontPageImage'><a href='#'><img src={frontPage} className='frontPage'/></a></div>
               </div>
           </div>
+          </div>
+          <div className='belowCarousel'>
+            <div className='imageRelativeInformation'>
+              <h2 className='bold'>Video: Recommended for you</h2>
+              <p>The Boys - Season 1</p>
+            </div>
+            <a href='#'><img src={theBoys}/></a>
+            <div className='imageRelativeInformation2'>
+              <p>Start watching</p>
+              <button>Add to Watchlist</button>
+            </div>
+            <div className="rightofImage">
+            <div className='areaImageee'>
+              <h2 className='bold'>Kitchenware from Sur La Table</h2>
+              </div>
+              <div className='areaImageee'>
+              <h2 className='bold'>Best books of 2023 so far</h2>
+              </div>
+              </div>
           </div>
       </main>
 
