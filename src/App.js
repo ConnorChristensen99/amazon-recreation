@@ -108,16 +108,16 @@ function App() {
         <div className='carouselContainer'>
       <Carousel className='carouselMain'>
                 <div className='fade-img'>
-                    <img src= {image1}/>
+                    <img src= {image1} alt="logo"/>
                 </div>
                 <div  className='fade-img'>
-                    <img src= {image2} />
+                    <img src= {image2} alt="logo"/>
                 </div>
                 <div  className='fade-img'>
-                    <img src= {image3} />
+                    <img src= {image3} alt="logo"/>
                 </div>
                 <div  className='fade-img'>
-                    <img src= {image4} />
+                    <img src= {image4} alt="logo"/>
                 </div>
             </Carousel>
             </div>
@@ -126,32 +126,32 @@ function App() {
             <div className='areaImage1'>
               <h2 className='bold'>Pick up where you left off</h2>
               <div className='imageHolder'>
-              <div className='imageContainer'><img src= {pickup1}/><p>Maisto 1:18 Special Edition</p></div>
-              <div className='imageContainer'><img src= {pickup2}/><p>Maisto 1:18 Special Edition</p></div>
-              <div className='imageContainer'><img src= {pickup3}/><p>2020 Chevrolet Corvette</p></div>
-              <div className='imageContainer'><img src= {pickup4}/><p>Maisto 1:18 Special Edition</p></div>
+              <div className='imageContainer'><img src= {pickup1} alt="logo"/><p>Maisto 1:18 Special Edition</p></div>
+              <div className='imageContainer'><img src= {pickup2} alt="logo"/><p>Maisto 1:18 Special Edition</p></div>
+              <div className='imageContainer'><img src= {pickup3} alt="logo"/><p>2020 Chevrolet Corvette</p></div>
+              <div className='imageContainer'><img src= {pickup4} alt="logo"/><p>Maisto 1:18 Special Edition</p></div>
               </div>
             </div>
             <div className='areaImage2'>
             <h2 className='bold'>Keep shopping for</h2>
             <div className='imageHolder'>
-            <div className='imageContainer'><img src= {lion}/><p>Dog Costumes</p></div>
-            <div className='imageContainer bigContainer'><img src= {keepShopping2}/><p>Kindle Store</p></div>
-            <div className='imageContainer'><img src= {keepShopping3}/><p>Dog Shedding Tools</p></div>
-            <div className='imageContainer'><img src= {keepShopping4}/><p>Dog training clickers</p></div>
-            <a href='#' className='viewmore'><p>View your browsing history</p></a>
+            <div className='imageContainer'><img src= {lion} alt="logo"/><p>Dog Costumes</p></div>
+            <div className='imageContainer bigContainer'><img src= {keepShopping2} alt="logo"/><p>Kindle Store</p></div>
+            <div className='imageContainer'><img src= {keepShopping3} alt="logo"/><p>Dog Shedding Tools</p></div>
+            <div className='imageContainer'><img src= {keepShopping4} alt="logo"/><p>Dog training clickers</p></div>
+            <a href='google.com' className='viewmore'><p>View your browsing history</p></a>
             </div>
               </div>
               <div className='areaImage3'>
               <h2 className='bold'>Buy again</h2>
               <div className='imageHolder'>
-              <div className='imageContainer'><img src= {buyAgain1}/></div>
-              <div className='imageContainer'><img src= {buyAgain2}/></div>
-              <div className='imageContainer'><img src= {buyAgain3}/></div>
-              <div className='imageContainer'><img src= {buyAgain4}/></div>
+              <div className='imageContainer'><img src= {buyAgain1} alt="logo"/></div>
+              <div className='imageContainer'><img src= {buyAgain2} alt="logo"/></div>
+              <div className='imageContainer'><img src= {buyAgain3} alt="logo"/></div>
+              <div className='imageContainer'><img src= {buyAgain4} alt="logo"/></div>
               <div className='areaImage3Information'>
               <p>Shop your everyday essentials</p>
-              <a href='#' className='viewmore'><p className='seeMore'>See More</p></a>
+              <a href='google.com' className='viewmore'><p className='seeMore'>See More</p></a>
               </div>
               </div>
               </div>
@@ -159,11 +159,11 @@ function App() {
               <div className='areaImage4Float'>
                 <div>
               <h3 className='bold'>Gift cards for the perfect send-off</h3>
-              <a href='#' className='viewmore'><p className='seeMore'>Shop off to college</p></a>
+              <a href='google.com' className='viewmore'><p className='seeMore'>Shop off to college</p></a>
               </div>
-              <div className='imageContainerFloat'><img src= {topDeal}/></div>
+              <div className='imageContainerFloat'><img src= {topDeal} alt="logo"/></div>
               </div>
-              <div className='frontPageImage'><a href='#'><img src={frontPage} className='frontPage'/></a></div>
+              <div className='frontPageImage'><a href='google.com'><img src={frontPage} className='frontPage' alt="logo"/></a></div>
               </div>
           </div>
           </div>
@@ -172,7 +172,7 @@ function App() {
               <h2 className='bold'>Video: Recommended for you</h2>
               <p>The Boys - Season 1</p>
             </div>
-            <a href='#'><img src={theBoys}/></a>
+            <a href='google.com'><img src={theBoys} alt="logo"/></a>
             <div className='imageRelativeInformation2'>
               <p>Start watching</p>
               <button>Add to Watchlist</button>
@@ -197,55 +197,55 @@ function App() {
       <div className='footer1'>
         <h3>Get to Know Us</h3>
         <ul className='footerList'>
-          <a href="#"><li>Careers</li></a>
-          <a href="#"><li>Amazon Newsletter</li></a>
-          <a href="#"><li>About Amazon</li></a>
-          <a href="#"><li>Accessibility</li></a>
-          <a href="#"> <li>Sustainability</li></a>
-          <a href="#"><li>Press Center</li></a>
+          <a href="google.com"><li>Careers</li></a>
+          <a href="google.com"><li>Amazon Newsletter</li></a>
+          <a href="google.com"><li>About Amazon</li></a>
+          <a href="google.com"><li>Accessibility</li></a>
+          <a href="google.com"> <li>Sustainability</li></a>
+          <a href="google.com"><li>Press Center</li></a>
         </ul>
 
       </div>
       <div className='footer2'>
         <h3>Make Money with Us</h3>
         <ul className='footerList'>
-        <a href="#"><li>Sell products on Amazon</li></a>
-        <a href="#"> <li>Sell apps on Amazon</li></a>
-        <a href="#"><li>Supply to Amazon</li></a>
-        <a href="#"><li>Protect & Build Your Brand</li></a>
-        <a href="#"><li>Become an Affiliate</li></a>
-        <a href="#"><li>Become a Delivery Driver</li></a>
-        <a href="#"> <li>Start a Package Delivery Business</li></a>
-        <a href="#"><li>Self-Publish with Us</li></a>
+        <a href="google.com"><li>Sell products on Amazon</li></a>
+        <a href="google.com"> <li>Sell apps on Amazon</li></a>
+        <a href="google.com"><li>Supply to Amazon</li></a>
+        <a href="google.com"><li>Protect & Build Your Brand</li></a>
+        <a href="google.com"><li>Become an Affiliate</li></a>
+        <a href="google.com"><li>Become a Delivery Driver</li></a>
+        <a href="google.com"> <li>Start a Package Delivery Business</li></a>
+        <a href="google.com"><li>Self-Publish with Us</li></a>
         </ul>
 
       </div>
       <div className='footer3'>
         <h3>Amazon Payment Products</h3>
         <ul className='footerList'>
-        <a href="#"><li>Amazon Visa</li></a>
-        <a href="#"><li>Amazon Store Card</li></a>
-        <a href="#"> <li>Amazon Secured Card</li></a>
-        <a href="#"><li>Amazon Business Card</li></a>
-        <a href="#"><li>Shop with Points</li></a>
-        <a href="#"> <li>Credit Card Marketplace</li></a>
-        <a href="#"> <li>Reload Your Balance</li></a>
-        <a href="#"><li>Gift Cards</li></a>
+        <a href="google.com"><li>Amazon Visa</li></a>
+        <a href="google.com"><li>Amazon Store Card</li></a>
+        <a href="google.com"> <li>Amazon Secured Card</li></a>
+        <a href="google.com"><li>Amazon Business Card</li></a>
+        <a href="google.com"><li>Shop with Points</li></a>
+        <a href="google.com"> <li>Credit Card Marketplace</li></a>
+        <a href="google.com"> <li>Reload Your Balance</li></a>
+        <a href="google.com"><li>Gift Cards</li></a>
         </ul>
 
       </div>
       <div className='footer4'>
         <h3>Let Us Help You</h3>
         <ul className='footerList'>
-          <li href="#">Amazon and COVID-19</li>
-          <li href="#">Your Account</li>
-          <li href="#">Your Orders</li>
-          <li href="#">Shipping Rates & Policies</li>
-          <li href="#">Amazon Prime</li>
-          <li href="#">Returns & Replacements</li>
-          <li href="#">Manage Your Content and Devices</li>
-          <li href="#">Your Recalls and Product Safety Alerts</li>
-          <li href="#">Help</li>
+          <li href="google.com">Amazon and COVID-19</li>
+          <li href="google.com">Your Account</li>
+          <li href="google.com">Your Orders</li>
+          <li href="google.com">Shipping Rates & Policies</li>
+          <li href="google.com">Amazon Prime</li>
+          <li href="google.com">Returns & Replacements</li>
+          <li href="google.com">Manage Your Content and Devices</li>
+          <li href="google.com">Your Recalls and Product Safety Alerts</li>
+          <li href="google.com">Help</li>
         </ul>
       </div>
     </div>
