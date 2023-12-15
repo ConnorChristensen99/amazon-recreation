@@ -21,6 +21,8 @@ import topDeal from './assets/topDeal.jpg'
 import lion from './assets/lion.jpg'
 import frontPage from './assets/frontPage.png'
 import theBoys from './assets/theBoys.jpg'
+import fashion from './assets/fashion.jpg'
+import cold from './assets/cold.jpg'
 import './App.css';
 import { FaMapMarkerAlt, FaSearch, FaOpencart, FaTh } from 'react-icons/fa';
 // HANDLES IMAGE CAROUSEL ON HOMEPAGE
@@ -179,10 +181,14 @@ function App() {
             </div>
             <div className="rightofImage">
             <div className='areaImageee'>
-              <h2 className='bold'>Kitchenware from Sur La Table</h2>
+              <h2 className='bold'>Fashion gifts for the family</h2>
+              <img src={fashion} alt="logo" class='figure'/>
+              <p class='viewmore seemore'>Explore the Fashion Gift Guide</p>
               </div>
               <div className='areaImageee'>
-              <h2 className='bold'>Best books of 2023 so far</h2>
+              <h2 className='bold'>Up to 30% off cold weather styles</h2>
+              <img src={cold} alt="logo" class='figure'/>
+              <p class='viewmore seemore'>Shop deals on coats and more</p>
               </div>
               </div>
           </div>

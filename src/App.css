@@ -365,6 +365,11 @@ button.control-arrow.control-next:hover {
   width: 300px;
   font-size: small;
 }
+.areaImageee img {
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+}
 .rightofImage {
   display: flex;
   margin-left: 12px;
