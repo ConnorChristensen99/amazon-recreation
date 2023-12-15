@@ -9,7 +9,6 @@ import pickup1 from './assets/pick_up1.jpg';
 import pickup2 from './assets/pick_up2.jpg';
 import pickup3 from './assets/pick_up3.jpg';
 import pickup4 from './assets/pick_up4.jpg';
-import keepShopping1 from './assets/keep_shopping1.jpg';
 import keepShopping2 from './assets/keep_shopping2.jpg';
 import keepShopping3 from './assets/keep_shopping3.jpg';
 import keepShopping4 from './assets/keep_shopping4.jpg';
@@ -26,11 +25,9 @@ import cold from './assets/cold.jpg'
 import './App.css';
 import { FaMapMarkerAlt, FaSearch, FaOpencart, FaTh } from 'react-icons/fa';
 // HANDLES IMAGE CAROUSEL ON HOMEPAGE
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 function App() {
   return (
